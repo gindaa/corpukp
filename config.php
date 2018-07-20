@@ -2,7 +2,7 @@
 
   //$username = "root";
   //$password = "";
-//$con = mysqli_connect("10.14.134.16","dbmin","dbmin");
+//$con = mysqli_connect("192.168.1.129","gg","gg");
 $con = mysqli_connect("localhost","root","");
   //mysqli_connect("localhost", $username, $password);
 mysqli_select_db($con,"room_corpu");

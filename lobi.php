@@ -5,9 +5,15 @@ include("config.php");
 ?>
 <head>
   <title>Lobi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" href="css/w3.css"> -->
   <link rel="stylesheet" type="text/css" href="style_.css">
+  <!-- <style>
+    .mySlides {display:none;}
+  </style> -->
   <body>
-   <div class="box">
+   <!--  <div class="mySlides w3-animate-left"> -->
+    <div class="box">
      <img src="logo_corpu.png" class="logo"> 
      <h1>CACUK SUDARIJANTO</h1>
      <?php 
@@ -61,7 +67,41 @@ include("config.php");
           ?>
         </tbody>
       </table>
+      <!-- </div> -->
     </div>
+    <div class="box2">
+      <div id="container"">
+        <div id="sliderbox">
+          <img src="map1.png" height="260" width="768" />
+          <img src="map2.jpg" height="260" width="768" />
+          <img src="map3.jpg" height="260" width="768" />
+        </div>
+      </div>
+    </div>
+
+    <div class="box3">
+      <img src="social media white font.png" class="sosmed">
+    </div>
+
+    <div class="box4">
+      <h1 class="jalan">Jalan Gegerkalong Hilir No.47 Bandung 40152, Indonesia</h1>
+    </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2500);    
+      }
+    </script>
   </body>
 </head>
 <hr>

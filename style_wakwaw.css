@@ -37,12 +37,31 @@ body{
 .box-3-2{
 	width: 50%;
 	height: 21%;
-	background: #ecedc0;
+	background: #ffffff;
 	top:65%;
 	left:50%;
 	position: absolute;
 	box-sizing: border-box;
+}
 
+.box-3-2-1{
+	width: 34%;
+	height: 18%;
+	background: #000000;
+	top:68%;
+	left:50%;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.box-3-2-2{
+	width: 34%;
+	height: 18%;
+	background: #ecedc0;
+	top:68%;
+	left:66%;
+	position: absolute;
+	box-sizing: border-box;
 }
 
 .box-4{
@@ -106,6 +125,11 @@ h1.gedung{
 	color: #362417;
 }
 
+img.cctv{
+	width: 300px;
+	height: 265px;
+
+}
 h1.kegiatan{
 	margin: 0;
 	padding: 5% 15% 0 15%;
@@ -113,6 +137,48 @@ h1.kegiatan{
 	font-size: 60px;
 	font-family: sans-serif;
 	color: #ecedc0;
+}
+
+h1.tson{
+	text-align: center;
+	font-size: 17px;
+}
+
+img.foto{
+	padding-top: 5%;
+	max-width: 75px;
+	max-height: 150px;
+
+}
+
+h1.nama{
+	text-align: left;
+	font-size: 25px;
+}
+
+h1.hp{
+	text-align: left;
+	font-size: 20px;
+}
+
+
+img.foto2{
+	padding-top: 5%;
+	max-width: 75px;
+	max-height: 150px;
+
+}
+
+h1.nama2{
+	padding-top: 5%;
+	text-align: left;
+	font-size: 25px;
+}
+
+h1.hp2{
+	padding-top: 5%;
+	text-align: left;
+	font-size: 20px;
 }
 
 

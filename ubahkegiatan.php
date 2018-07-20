@@ -90,7 +90,14 @@
 						
 						<div class="form-group">
 							<label>Jenis Kegiatan</label>
-							<input type="text" class="form-control" name="jenis_kegiatan" value="<?php echo $datakegiatan['event_type']; ?>">
+					            <select name ="jenis_kegiatan" class="form-control" selectedValue="<?php echo $datakegiatan['event_type']; ?>">
+					            	
+					              <option <?php if($datakegiatan['event_type']=="Pelatihan"){ echo"selected";}?> value="Pelatihan">Pelatihan</option>
+					              <option <?php if($datakegiatan['event_type']=="PelatihanUBPP"){ echo"selected";}?> value="PelatihanUBPP">Pelatihan + UBPP</option>
+					              <option <?php if($datakegiatan['event_type']=="Workshop"){ echo"selected";}?> value="Workshop">Workshop</option>
+					              <option  <?php if($datakegiatan['event_type']=="Pinjam_Fasilitas"){ echo"selected";}?>value="Pinjam_Fasilitas">Pinjam Fasilitas</option>
+					            </select> 
+							
 						</div>
 						
 						<div class="form-group">

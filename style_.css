@@ -4,36 +4,88 @@ body{
 	background: url('images/pic_P.jpg');
 	background-size: cover;
 	background-position: top;
-	font-family: arial;
+	font-family: sans-serif;
+	overflow: hidden;
 }
 
 .box{
-	width: 99%;
-	height: 80%;
+	width: 100%;
+	height: 77.5%;
 	background: rgba(0, 0, 0, 0.5);
 	color: #fff;
-	top: 50%;
+	top: 47.5%;
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%,-50%);
 	box-sizing: border-box;
-	padding: 70px 30px;
+	padding: 47.5px 30px;
+
+}
+
+.box2{
+	width: 100%;
+	height: 25%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	top: 75%;
+	left: 0%;
+	position: absolute;
+	box-sizing: border-box;
+
+}
+
+.box3{
+	width: 100%;
+	height: 12%;
+	background: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	top: 100%;
+	left: 0%;
+	position: absolute;
+	box-sizing: border-box;
+
+}
+
+.box4{
+	width: 100%;
+	height: 7%;
+	background: rgba(0, 0, 0, 0.85);
+	color: #fff;
+	top: 112%;
+	left: 0%;
+	position: absolute;
+	box-sizing: border-box;
 
 }
 
 .logo{
-	width: 225px;
-	height: 100px;
+	width: 250px;
+	max-height: 100%;
 	position: absolute;
-	top: -11%;
-	left: calc(45% - 50px);
+	top: -10%;
+	left: 35.3%;
+}
+
+.sosmed{
+	max-height: 100%;
+	max-width: 98%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	padding-left: 2%; 
+}
+
+.jalan{
+	text-align: center;
+	font-size: 17px;
+	bottom: -10%;
+	padding-top: 3%;
 }
 
 h1{
 	margin: 0;
-	padding: 0 0 20px;
 	text-align: center;
-	font-size: 22px;
+	font-size: 33px;
 }
 
 th{
@@ -48,6 +100,53 @@ tr:nth-child(odd) {
 
 td {
 	padding: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+#sliderbox{
+	position: relative;
+	width: 2305px;
+	animation-name: slideranimation;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+
+
+}
+
+#sliderbox img{
+	float: left;
+}
+
+
+
+@keyframes slideranimation{
+
+	0%{
+		left: 0px;
+	}
+	25%{
+		left: 0px;
+	}
+	30%{
+		left: -768px;
+	}
+	55%{
+		left: -768px;
+	}
+	60%{
+		left: -1536px;
+	}
+	85%{
+		left: -1536px;
+	}
+	100%{
+		left: 0px;
+	}
+
 }
 
 
