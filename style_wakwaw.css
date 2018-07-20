@@ -1,0 +1,125 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: top;
+	font-family: sans-serif;
+}
+
+.box-1{
+	width: 100%;
+	height: 25%;
+	background: #ecedc0;
+	position: absolute;
+
+}
+
+.box-2{
+	width: 100%;
+	height: 40%;
+	background: #362417;
+	top:25%;
+	position: absolute;
+	box-sizing: border-box;
+
+}
+
+.box-3-1{
+	width: 50%;
+	height: 21%;
+	background: #ecedc0;
+	top:65%;
+	position: absolute;
+	box-sizing: border-box;
+
+}
+
+.box-3-2{
+	width: 50%;
+	height: 21%;
+	background: #ecedc0;
+	top:65%;
+	left:50%;
+	position: absolute;
+	box-sizing: border-box;
+
+}
+
+.box-4{
+	width: 100%;
+	height: 9%;
+	background: #362417;
+	top:86%;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.box-5{
+	width: 100%;
+	height: 5%;
+	background: #ecedc0;
+	top:95%;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+.logo{
+	width: 33%;
+	height: 30%;
+	position: absolute;
+	top: 3%;
+	left: 1%;
+}
+
+.logo2{
+	max-height: 17.5%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;  
+}
+
+.sosmed{
+	max-height: 100%;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;  
+}
+
+h1.kelas{
+	margin: 0;
+	padding: 17.5% 0 0 0;
+	text-align: center;
+	font-size: 75px;
+	font-family: sans-serif;
+	color: #362417;
+}
+
+
+h1.gedung{
+	margin: 0;
+	padding: 1% 0 0 0;
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: #362417;
+}
+
+h1.kegiatan{
+	margin: 0;
+	padding: 5% 15% 0 15%;
+	text-align: center;
+	font-size: 60px;
+	font-family: sans-serif;
+	color: #ecedc0;
+}
+
+
+
+
+
+
+
+
+
